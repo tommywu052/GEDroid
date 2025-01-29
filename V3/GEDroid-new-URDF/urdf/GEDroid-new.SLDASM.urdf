@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="GEDroid-new.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0171680659676554 -0.137610530913037 0.0114698204231181"
+        rpy="0 0 0" />
+      <mass
+        value="2.89181640391736" />
+      <inertia
+        ixx="0.0160644836095748"
+        ixy="-7.92926913645102E-06"
+        ixz="-7.97889809739415E-06"
+        iyy="0.0148133437841239"
+        iyz="0.000100838990521549"
+        izz="0.00388511018553173" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.964705882352941 0.964705882352941 0.952941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="-0.0156883250154336 0.0234336407860933 0.0662660362246067"
+        rpy="0 0 0" />
+      <mass
+        value="0.141492024382892" />
+      <inertia
+        ixx="0.00014087753143704"
+        ixy="-7.84067507326524E-19"
+        ixz="-3.74884658345556E-18"
+        iyy="0.000160668017730118"
+        iyz="-4.12408877520651E-05"
+        izz="5.86303587779097E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="continuous">
+    <origin
+      xyz="0 -0.214944053003405 0.132709052825817"
+      rpy="2.27521799628306 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link3" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="-0.0171735409335834 0.0226936862307067 0.0639654406322349"
+        rpy="0 0 0" />
+      <mass
+        value="0.152064515546557" />
+      <inertia
+        ixx="0.000149446997147015"
+        ixy="3.46945124618924E-08"
+        ixz="9.98764762980526E-08"
+        iyy="0.000166143101497851"
+        iyz="-4.30878667154814E-05"
+        izz="6.14784192929815E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="continuous">
+    <origin
+      xyz="0 -0.214944053003395 0.0626985300479472"
+      rpy="2.27511756114906 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link5" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="-0.0169816009653617 0.120192284641954 0.407900747584906"
+        rpy="0 0 0" />
+      <mass
+        value="2.41045606315177" />
+      <inertia
+        ixx="0.00800362859132821"
+        ixy="-7.8112924665467E-06"
+        ixz="4.23304714322119E-06"
+        iyy="0.0135600450829479"
+        iyz="-0.000655726051792349"
+        izz="0.0201850951375899" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="fixed">
+    <origin
+      xyz="0.0010999999999995 -0.276030052204441 -0.0904400054494847"
+      rpy="-0.704448986134054 0 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.0169816009653617 0.120192284642187 0.407900747584995"
+        rpy="0 0 0" />
+      <mass
+        value="2.41045606315177" />
+      <inertia
+        ixx="0.00800362859132821"
+        ixy="-7.81129246654483E-06"
+        ixz="4.23304714322087E-06"
+        iyy="0.0135600450829479"
+        iyz="-0.00065572605179235"
+        izz="0.0201850951375899" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="link4" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="-0.00118310761270998 0.0345691070633183 0.0590434562565884"
+        rpy="0 0 0" />
+      <mass
+        value="4.46959125265905" />
+      <inertia
+        ixx="0.0151461602054954"
+        ixy="-9.73707243387995E-05"
+        ixz="1.81670489698321E-05"
+        iyy="0.0264523384789441"
+        iyz="-0.00109048349604576"
+        izz="0.0390713055528011" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="continuous">
+    <origin
+      xyz="-0.0162883250154295 0.0920774016114892 0.361154689212294"
+      rpy="0 0 -0.0127723155758449" />
+    <parent
+      link="link2" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 0.999999999998669" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="0.0512412740624006 -0.0186558215582564 -0.080302832204397"
+        rpy="0 0 0" />
+      <mass
+        value="0.875753101445047" />
+      <inertia
+        ixx="0.00130986342000538"
+        ixy="1.73885499806199E-05"
+        ixz="-2.82198811183346E-05"
+        iyy="0.000721420197925581"
+        iyz="-5.23092881416495E-05"
+        izz="0.00131948142167411" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="continuous">
+    <origin
+      xyz="-0.0594766500308766 0 0.0499999999999993"
+      rpy="1.5707963267949 0.0442781073947316 -3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="link6" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="link7">
+    <inertial>
+      <origin
+        xyz="-0.00216652497389841 -0.0156926949911633 -0.00562187419421987"
+        rpy="0 0 0" />
+      <mass
+        value="0.45837132802261" />
+      <inertia
+        ixx="0.000718579467841965"
+        ixy="-3.54999622179201E-06"
+        ixz="-2.8140513263357E-06"
+        iyy="0.000225027564088276"
+        iyz="6.16006189858157E-05"
+        izz="0.000848031886301961" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="continuous">
+    <origin
+      xyz="0.0609551702062409 0.00105847856445156 -0.0125139999999875"
+      rpy="0 0.0276219332956401 0" />
+    <parent
+      link="link6" />
+    <child
+      link="link7" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link8">
+    <inertial>
+      <origin
+        xyz="-0.00653539807492051 -0.0405954231712672 0.040597232802714"
+        rpy="0 0 0" />
+      <mass
+        value="0.238182644819532" />
+      <inertia
+        ixx="0.000349756035321919"
+        ixy="-4.13281181981358E-06"
+        ixz="3.9525513379463E-06"
+        iyy="0.000181258287787399"
+        iyz="0.000145459473153057"
+        izz="0.000215676280131395" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link8.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link8.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint8"
+    type="continuous">
+    <origin
+      xyz="-0.00146822424739357 -0.00989154548080343 -4.056550952127E-05"
+      rpy="-0.245697682753295 0 0" />
+    <parent
+      link="link7" />
+    <child
+      link="link8" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link10">
+    <inertial>
+      <origin
+        xyz="-2.27327725795118E-05 0.0386787629718439 0.0401895200274374"
+        rpy="0 0 0" />
+      <mass
+        value="0.162169448593694" />
+      <inertia
+        ixx="0.000328813345469538"
+        ixy="9.98368587846297E-06"
+        ixz="1.02109077903781E-05"
+        iyy="0.000186580494256216"
+        iyz="-0.000144543544484592"
+        izz="0.000179724663519201" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.964705882352941 0.964705882352941 0.952941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint10"
+    type="continuous">
+    <origin
+      xyz="0 -0.0895685175599561 0.092541526184674"
+      rpy="0.263294622664939 0 0" />
+    <parent
+      link="link8" />
+    <child
+      link="link10" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link12">
+    <inertial>
+      <origin
+        xyz="0.0803037556590576 0.0112319207405951 0.210505879104301"
+        rpy="0 0 0" />
+      <mass
+        value="0.452431108793929" />
+      <inertia
+        ixx="0.00127925908593735"
+        ixy="3.86723142556189E-05"
+        ixz="1.03706869794754E-06"
+        iyy="9.38392180881101E-05"
+        iyz="-1.83110176118289E-06"
+        izz="0.00124492269832378" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link12.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link12.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint12"
+    type="fixed">
+    <origin
+      xyz="-0.0838099844441524 0.0448099765319289 -0.108524774330036"
+      rpy="-0.0174862174405892 0 0" />
+    <parent
+      link="link10" />
+    <child
+      link="link12" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link9">
+    <inertial>
+      <origin
+        xyz="0.00309049775500662 -0.0395692531573744 0.0375646928657304"
+        rpy="0 0 0" />
+      <mass
+        value="0.0932425739186278" />
+      <inertia
+        ixx="0.000148889837706386"
+        ixy="-7.43183019895178E-07"
+        ixz="2.73916844871099E-08"
+        iyy="8.04379818916381E-05"
+        iyz="7.08479726322004E-05"
+        izz="9.70122319235416E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link9.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link9.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jjoint9"
+    type="continuous">
+    <origin
+      xyz="0 -0.0774566864775221 -1.43725865874578E-05"
+      rpy="-0.245667046654869 0 0" />
+    <parent
+      link="link7" />
+    <child
+      link="link9" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link11">
+    <inertial>
+      <origin
+        xyz="0.000961297617652665 0.0419611601788669 0.0435707531710885"
+        rpy="0 0 0" />
+      <mass
+        value="0.0459716984586627" />
+      <inertia
+        ixx="7.40085888995002E-05"
+        ixy="2.1085789759488E-06"
+        ixz="2.161325584764E-06"
+        iyy="3.94508848329673E-05"
+        iyz="-3.58543851419154E-05"
+        izz="3.77553451643221E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link11.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link11.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint11"
+    type="continuous">
+    <origin
+      xyz="0 -0.0919191799401484 0.0919191799401376"
+      rpy="0.263263986566531 0 0" />
+    <parent
+      link="link9" />
+    <child
+      link="link11" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link13">
+    <inertial>
+      <origin
+        xyz="0.0803037556590719 0.0112319207404568 0.210505879104278"
+        rpy="0 0 0" />
+      <mass
+        value="0.452431108793929" />
+      <inertia
+        ixx="0.00127925908593734"
+        ixy="3.86723142556188E-05"
+        ixz="1.03706869794753E-06"
+        iyy="9.38392180881099E-05"
+        iyz="-1.83110176118287E-06"
+        izz="0.00124492269832378" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link13.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link13.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint13"
+    type="fixed">
+    <origin
+      xyz="-0.0852782086915455 0.114799274931599 -0.10974874717343"
+      rpy="-0.0174862174406072 0 0" />
+    <parent
+      link="link11" />
+    <child
+      link="link13" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link14">
+    <inertial>
+      <origin
+        xyz="0.0254859747699427 0.0178399678408832 0.0782120182696826"
+        rpy="0 0 0" />
+      <mass
+        value="2.0001936642267" />
+      <inertia
+        ixx="0.0027746949489558"
+        ixy="2.64188016661135E-06"
+        ixz="2.15159139613216E-07"
+        iyy="0.00151431624329031"
+        iyz="-0.000102728221254846"
+        izz="0.00278444423468377" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link14.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link14.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint14"
+    type="continuous">
+    <origin
+      xyz="0.0254999999999987 0 0.0499999999999993"
+      rpy="-1.5707963267949 -0.00571159415028269 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="link14" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="link15">
+    <inertial>
+      <origin
+        xyz="-0.00219374277029309 -0.0126971301575152 0.00488912738406339"
+        rpy="0 0 0" />
+      <mass
+        value="0.472144245348398" />
+      <inertia
+        ixx="0.0007504164801036"
+        ixy="-1.93763071590823E-05"
+        ixz="2.55037370245849E-06"
+        iyy="0.00023343207356342"
+        iyz="-6.06058478201766E-05"
+        izz="0.000888427937486772" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link15.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link15.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint15"
+    type="continuous">
+    <origin
+      xyz="-0.060339930319045 0.00408384397892164 0.00939022117508485"
+      rpy="0 -0.0325936033957732 3.14159265358979" />
+    <parent
+      link="link14" />
+    <child
+      link="link15" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link16">
+    <inertial>
+      <origin
+        xyz="-0.009080480614842 -0.040709162410423 0.0451864459101035"
+        rpy="0 0 0" />
+      <mass
+        value="0.238182644819532" />
+      <inertia
+        ixx="0.000349275765809278"
+        ixy="-9.30625211410535E-06"
+        ixz="9.52355350341211E-06"
+        iyy="0.000204583792398507"
+        iyz="0.000146109414098503"
+        izz="0.000192831045032929" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link16.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link16.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint16"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="1.77420796875247 0 0" />
+    <parent
+      link="link15" />
+    <child
+      link="link16" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link18">
+    <inertial>
+      <origin
+        xyz="0.00392476856554343 0.0399773647427526 0.0426202839147912"
+        rpy="0 0 0" />
+      <mass
+        value="0.162169448593693" />
+      <inertia
+        ixx="0.000329376837451513"
+        ixy="-4.42754910131225E-06"
+        ixz="-4.48975705119678E-06"
+        iyy="0.00018285812947759"
+        iyz="-0.000144866992066166"
+        izz="0.000182883536315852" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link18.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.964705882352941 0.964705882352941 0.952941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link18.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint18"
+    type="continuous">
+    <origin
+      xyz="-0.00133196969037826 -0.0913780469211709 0.0924569002163598"
+      rpy="-1.35741915051425 0 -3.14159265358975" />
+    <parent
+      link="link16" />
+    <child
+      link="link18" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link20">
+    <inertial>
+      <origin
+        xyz="0.0776645575740605 0.0147727564500926 -0.212097619929147"
+        rpy="0 0 0" />
+      <mass
+        value="0.452294772172764" />
+      <inertia
+        ixx="0.00128167348554608"
+        ixy="2.61629945975682E-06"
+        ixz="-1.40558644931405E-06"
+        iyy="9.11250594765977E-05"
+        iyz="3.03288264275973E-06"
+        izz="0.00124465643813416" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link20.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link20.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint20"
+    type="continuous">
+    <origin
+      xyz="0.082830937131483 0.0446638401381951 -0.108441524368483"
+      rpy="-3.13174082239427 0 3.14159265358979" />
+    <parent
+      link="link18" />
+    <child
+      link="link20" />
+    <axis
+      xyz="0.999286561872324 0.00209954342714324 -0.0377088740058346" />
+  </joint>
+  <link
+    name="link17">
+    <inertial>
+      <origin
+        xyz="0.00170427937737623 -0.0399380439619911 0.0385393556846063"
+        rpy="0 0 0" />
+      <mass
+        value="0.0932425739186279" />
+      <inertia
+        ixx="0.000148760646117843"
+        ixy="3.01271568637367E-06"
+        ixz="-2.53767647228882E-06"
+        iyy="8.59828700306306E-05"
+        iyz="7.12252092337783E-05"
+        izz="9.15965353730923E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link17.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link17.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint17"
+    type="continuous">
+    <origin
+      xyz="0 -0.0723143639341467 0"
+      rpy="2.9382146647483 0 3.14159265358978" />
+    <parent
+      link="link15" />
+    <child
+      link="link17" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link19">
+    <inertial>
+      <origin
+        xyz="0.00579096013768479 0.0455684397086393 0.0447885213103204"
+        rpy="0 0 0" />
+      <mass
+        value="0.0459716984586628" />
+      <inertia
+        ixx="7.40802007280732E-05"
+        ixy="-1.44380923495022E-06"
+        ixz="-1.39234078886598E-06"
+        iyy="3.75645676971897E-05"
+        iyz="-3.58860013931776E-05"
+        izz="3.95700504715274E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link19.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.568627450980392 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link19.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint19"
+    type="continuous">
+    <origin
+      xyz="0 -0.0919191799401364 0.0919191799401356"
+      rpy="0.213343523164576 0 0" />
+    <parent
+      link="link17" />
+    <child
+      link="link19" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="link21">
+    <inertial>
+      <origin
+        xyz="0.0776645575740622 0.0147727564500685 -0.212097619929132"
+        rpy="0 0 0" />
+      <mass
+        value="0.452294772172764" />
+      <inertia
+        ixx="0.00128167348554608"
+        ixy="2.61629945975662E-06"
+        ixz="-1.40558644931405E-06"
+        iyy="9.11250594765977E-05"
+        iyz="3.03288264275975E-06"
+        izz="0.00124465643813416" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link21.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96078431372549 0.96078431372549 0.964705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GEDroid-new.SLDASM/meshes/link21.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint21"
+    type="fixed">
+    <origin
+      xyz="0.0841629068218648 0.116338240088584 -0.109568232180929"
+      rpy="-3.13174082239426 0 -3.14159265358979" />
+    <parent
+      link="link19" />
+    <child
+      link="link21" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
