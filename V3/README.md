@@ -1,4 +1,4 @@
-# Low Cost Version for the Star War Droid
+# Low Cost Version for the Star War Droid (James Bruton's repo)
 ## -BOM table
 | Item                 | Quantity | Description               | Link |
 |----------------------|----------|---------------------------|------|
@@ -11,13 +11,14 @@
 
 
 ## -Assemble guide (coming soon)
+Check original reference [here](https://youtu.be/DoY3duDDiUA?t=153) first 
 
 
 
 ## -Control Program
 * Joints Validation - <a href="img/isaacsim_testing.mp4">
     <img src="img/isaacsim_usd.jfif" width="200"></a>
-* Walking Validation - <a href="img/Walking.mp4">
+* Walking Validation - <a href="https://youtube.com/shorts/xfDG5_I0xLc?feature=share">
     <img src="img/Walking-m2s.jpg" width="200"></a>
 * Default Actions - <a href="control/Actions/">Burn through ServoBus -ROB <BR><img src="img/BusServo.png" width="200">
 </a>
