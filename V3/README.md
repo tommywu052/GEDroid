@@ -18,6 +18,7 @@ Check original reference [here](https://youtu.be/DoY3duDDiUA?t=153) first
 
 
 ## -Control Program
+* Isaac Sim USD - <BR> <img src="img/isaacsim-usd.png" width="300"></a>
 * Joints Validation - <a href="img/isaacsim_testing.mp4">
     <img src="img/isaacsim_usd.jfif" width="200"></a>
 * Walking Validation - <a href="https://youtube.com/shorts/xfDG5_I0xLc?feature=share">
