@@ -1,0 +1,6 @@
+### RL Training with AWD
+* AWD <BR>
+<a href="https://github.com/rimim/AWD">
+    <img src="https://github.com/rimim/AWD/blob/main/images/banner.png?raw=true" width="200"></a><br>
+* Reference OpenDuck Mini - <BR>
+<video controls src="https://private-user-images.githubusercontent.com/6552564/407339858-07059dbe-2ebb-4718-afe7-16ce80691073.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg1OTY5NzEsIm5iZiI6MTczODU5NjY3MSwicGF0aCI6Ii82NTUyNTY0LzQwNzMzOTg1OC0wNzA1OWRiZS0yZWJiLTQ3MTgtYWZlNy0xNmNlODA2OTEwNzMubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDIwMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAyMDNUMTUzMTExWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZGJlMzkyNGUwNzg4MjNkYTU2YmRlMTlhOWQ4MGNkMWY2YjRiOWE1ZDY4MDNiMmI4ZGMwYTMxMzQ3NzU3Y2EwNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.U-4EspYaiJBNn2R-JqAasKKd7tNhw8sxp2dmPuPsMFw" width="200" title="Title"></video>
