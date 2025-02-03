@@ -689,6 +689,32 @@ def get_gpt4_response(prompt):
         return None
     
 
+# Function to get DeepSeek-R1 response
+def get_deepseek_NIM_response(prompt):
+    try:
+        client = AzureOpenAI(
+        base_url = "https://integrate.api.nvidia.com/v1",
+        api_key = "$API_KEY_REQUIRED_IF_EXECUTING_OUTSIDE_NGC"
+        )
+
+        response = client.chat.completions.create(
+        model="deepseek-ai/deepseek-r1",
+        messages=[
+                    {"role": "system", "content": config.SYSTEM_PROMPT},
+                    {"role": "user", "content": prompt}
+                ],
+        temperature=0.6,
+        top_p=0.7,
+        max_tokens=4096
+        )
+
+        response_text = response.choices[0].message.content.strip()
+        print(response_text)
+        return response_text
+    except Exception as e:
+        print(f"Error communicating with DeepSeek R1 NIM: {e}")
+        return None
+    
 async def run(client: RTClient, audio_file_path: str, out_dir: str):
     #speak("Yes,I am here.")
     #playAudio("./alert6.wav")
@@ -724,6 +750,7 @@ async def with_openai(audio_file_path: str, out_dir: str):
     model = get_env_var("OPENAI_MODEL")
     async with RTClient(key_credential=AzureKeyCredential(key), model=model) as client:
         await run(client, audio_file_path, out_dir)
+
 
 
 def keyword_wake():
@@ -798,7 +825,8 @@ if __name__ == "__main__":
             user_input = transcribe_whisper(model)
             if not user_input:
                 continue
-            gpt4_response = get_gpt4_response(user_input)
+            gpt4_response = get_gpt4_response(user_input) 
+            #gpt4_response = get_deepseek_NIM_response(user_input)
             if gpt4_response:
                 print("GPT-4 Response:")
                 print(gpt4_response)
