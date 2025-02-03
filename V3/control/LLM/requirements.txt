@@ -1,0 +1,6 @@
+sounddevice
+SpeechRecognition
+paho-mqtt
+pyttsx3
+openai==1.0.0
+
